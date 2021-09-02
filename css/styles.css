@@ -1,0 +1,187 @@
+/*****************************************TAG SELECTORS*****************************************/
+body {
+  font-family: "Montserrat-Medium-500", sans-serif;
+  text-align: center;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Montserrat-Bold-700", sans-serif;
+  font-weight: 700;
+}
+
+
+p {
+  font-family: "Montserrat-Medium-500", sans-serif;
+  font-size: 1.2rem;
+  color: #8f8f8f;
+}
+
+/*****************************************CLASS SELECTORS*****************************************/
+/* Headings */
+.big-heading {
+  font-family: "Montserrat", sans-serif;
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+
+/* Prices */
+.price-text{
+  font-size: 3rem;
+  line-height: 1.5;
+  font-weight: bold;
+}
+
+/* The Text in the Carousel */
+.testimonial-text{
+  font-size: 3rem;
+  line-height: 1.5;
+  font-weight: bold;
+}
+
+/* The Heading in the Pricing section*/
+.section-heading{
+  font-size: 3rem;
+  line-height: 1.5;
+  font-weight: bold;
+}
+
+/* For it to be centralised */
+.container-fluid {
+  padding: 7% 15% ;
+}
+
+/* Navigation Bar */
+.navbar {
+  padding: 0 0 4.5rem;
+}
+
+.navbar-brand {
+  font-family: "Ubuntu", sans-serif;
+  font-size: 2.5rem;
+  font-weight: 500;
+}
+.nav-item {
+  padding: 0 18px;
+}
+.nav-link {
+  font-family: "Montserrat-Light-300", sans-serif;
+  font-size: 1.2rem;
+}
+
+/* Download Buttons */
+.download-button {
+  margin: 5% 3% 5% 0;
+}
+
+/* Title Image */
+.title-image {
+  width: 60%;
+  transform: rotate(25deg); /* Equal to rotateZ(20deg)  */
+  position: absolute;
+  right: 20%;
+}
+
+.icon {
+  color: #ef8172;
+  margin-bottom: 1rem;
+}
+
+.icon:hover {
+  color: #ff4c68;
+}
+
+.feature-box {
+  padding: 5%;
+}
+
+.testimonial-image {
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+.press-logo {
+  width: 15%;
+  margin: 20px 20px 50px; /* top left+right bottom */
+}
+
+/* for the cards to be more put together
+  because they have a border*/
+.pricing-column {
+  padding: 2% 3%;
+}
+
+/*****************************************MEDIA QUERYS*****************************************/
+/* below 1028 px apply these rules
+   everything is aligned in the first selector so it doesn't look weird*/
+@media (max-width: 1028px) {
+  #title {
+    text-align: center;
+  }
+
+  .title-image {
+    position: static;
+    transform: rotate(0);
+  }
+}
+
+.footer-links {
+  padding: 3% 15% 1%;
+}
+
+.social-icon {
+  margin: 20px 10px;
+}
+
+.feature-title{
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+/*****************************************ID SELECTORS*****************************************/
+#title {
+  background-color: #ff4c68;
+  color: #fff;
+  text-align: left;
+} 
+
+/*The container fluid in title section only*/
+#title .container-fluid{
+  padding: 3% 15% 7%;
+}
+
+/*Features Section*/
+#features {
+  background-color: #fff;
+  position: relative;
+}
+
+/* Testemonial Section */
+#testimonials {
+  background-color: #ef8172;
+  color: #fff;
+}
+
+/* Press Section */
+#press {
+  background-color: #ef8172;
+  padding-bottom: 3%;
+}
+
+/* Pricing Section */
+#pricing {
+  padding: 100px;
+}
+
+/* CTA Section */
+#cta {
+  background-color: #ff4c68;
+  color: #fff;
+}
+
+
